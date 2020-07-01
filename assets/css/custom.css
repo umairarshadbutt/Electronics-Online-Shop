@@ -2,6 +2,15 @@
 body{
     font-family:  "Helvetica Neue", Helvetica;
     font-size: 18px;
+    background-color: #F8F8F8;
+}
+h3 a{
+    color: #D35266;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #D35266;
+    text-decoration: none;
 }
 .nav-bg-color{
     background-color: #383838;
@@ -42,4 +51,10 @@ header p{
     color: white;
     text-align: center;
     margin-bottom: 43px;
+}
+.para p{
+    font-size: 0.8em;
+}
+.pre{
+    left: -117px;
 }
