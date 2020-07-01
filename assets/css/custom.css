@@ -1,0 +1,29 @@
+
+body{
+    font-family:  "Helvetica Neue", Helvetica;
+    font-size: 18px;
+}
+.nav-bg-color{
+    background-color: #383838;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #888888;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #D35266;
+}
+.nav-list-flex{
+    display: flex;
+    flex-direction: row;
+}
+.profile img{
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background-color: #d35266;
+    margin: 0 0.25rem;
+}
+.profile a{
+    color: #888888;
+    font-size: 1rem;
+}
