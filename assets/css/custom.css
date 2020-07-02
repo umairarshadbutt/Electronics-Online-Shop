@@ -54,9 +54,19 @@ header p{
 }
 .para p{
     font-size: 0.8em;
+    color: #888888
 }
 .pre{
-    left: -117px;
+    top: 45%;
+    height: 54px;
+    width: 54px;
+    outline: black;
+    /* background-size: 100%, 100%; */
+    border-radius: 50%;
+    border: 1px solid black;
+}
+h5{
+    color: #888888;
 }
 .add-button{
     background-color: #d35266;
@@ -67,3 +77,8 @@ header p{
 .navbar-dark .navbar-nav .post .nav-link {
     color: white;
 }
+
+.carousel-control-prev-icon {
+    background-image: url('../images/chevron-left.svg');
+}
+  
