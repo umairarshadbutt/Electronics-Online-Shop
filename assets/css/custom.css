@@ -162,3 +162,23 @@ h5{
     flex-basis: 40%;
     margin: 10px 0;
 }
+.float-left, .float-right li {
+    list-style: none;
+}
+.float-left a {
+    color: #888888;
+    font-size: 0.8em;
+}
+.float-right a {
+    color: #888888;
+    font-size: 0.8em;
+}
+footer p{
+    text-align: justify;
+}
+footer h3{
+    color: #d35266;
+    font-size: 1.3em;
+    margin-left: 34px;
+    border-bottom: 2px solid #d35266;
+}
