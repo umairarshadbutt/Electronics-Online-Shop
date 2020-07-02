@@ -120,7 +120,22 @@ h5{
 .item-font{
     font-size: 1.2em;
 }
-  
+
+.text-right a{
+    color: #d35266;;
+}
+.title * {
+    padding: 0 5px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: #383838;
+}
+.title p {
+    margin-top: 2px;
+}
+.title h3 {
+    font: bold 25px "Arimo", sans-serif;
+}
 
 .displayMobile {
     display: flex;
