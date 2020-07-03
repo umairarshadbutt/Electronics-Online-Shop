@@ -2,7 +2,7 @@
  
 > A real life project after completing HTML-CSS course completion.
 
-![screenshot](assets/images/Screenshot.png)
+![screenshot](assets/images/screen-shot.png)
 
 This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
 
@@ -17,7 +17,7 @@ This project is a replica of the The next clone home page. It has a different ne
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/News-Week-Clone/c66dd9ea0af890bf9a8a52e708498da7c554934e/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Electronics-Online-Shop/85633e4e5a666c41985ac41bec7ce30bd20e6974/index.html)
 
 
 ## Getting Started
