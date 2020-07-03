@@ -13,6 +13,14 @@ h3 a {
   color: #d35266;
   text-decoration: none;
 }
+h4 a {
+  color: #383838;
+  text-decoration: none;
+}
+h4 a:hover {
+  color: #383838;
+  text-decoration: none;
+}
 
 .nav-bg-color {
   background-color: #383838;
@@ -25,7 +33,6 @@ h3 a {
 .navbar-dark .navbar-nav .active > .nav-link {
   color: #d35266;
 }
-
 .nav-list-flex {
   display: flex;
   flex-direction: row;
@@ -209,4 +216,9 @@ footer h3 {
 
 .title h3 {
   font: bold 25px "Arimo", sans-serif;
+}
+
+label{
+  font-size: 0.8em;
+  color: #888;
 }
