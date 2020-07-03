@@ -239,3 +239,13 @@ label {
   border-radius: 5px;
   height: 20px;
 }
+
+.search-button {
+  background-color: #383838;
+  color: #fff;
+  margin-left: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: rem 0.8rem;
+  padding: 3px 16px 5px 10px;
+}
