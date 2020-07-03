@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: #f8f8f8;
 }
@@ -15,11 +15,6 @@ h3 a {
 }
 
 h4 a {
-  color: #383838;
-  text-decoration: none;
-}
-
-h4 a:hover {
   color: #383838;
   text-decoration: none;
 }
@@ -195,6 +190,11 @@ h3 a:hover {
   text-decoration: none;
 }
 
+h4 a:hover {
+  color: #383838;
+  text-decoration: none;
+}
+
 footer p {
   text-align: justify;
 }
@@ -233,9 +233,9 @@ label {
   color: #888;
 }
 
-.input-decoration{
+.input-decoration {
   border: 1px solid #888;
-    width: 86px;
-    border-radius: 5px;
-    height: 20px;
+  width: 86px;
+  border-radius: 5px;
+  height: 20px;
 }
