@@ -232,3 +232,10 @@ label {
 .responsive-footer li a {
   color: #888;
 }
+
+.input-decoration{
+  border: 1px solid #888;
+    width: 86px;
+    border-radius: 5px;
+    height: 20px;
+}
