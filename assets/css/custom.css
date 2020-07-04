@@ -177,7 +177,7 @@ h5 {
 
 .float-left a {
   color: #888;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .float-right a {
@@ -200,7 +200,7 @@ footer p {
 }
 
 .para p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #888;
 }
 
@@ -220,7 +220,7 @@ footer h3 {
 }
 
 label {
-  font-size: 0.8em;
+  font-size: 0.95em;
   color: #888;
 }
 
@@ -258,4 +258,9 @@ label {
   .offer-button {
     display: none;
 }
+}
+
+footer .para p {
+  font-size: 1em;
+  color: #888;
 }
