@@ -4,6 +4,7 @@
 
 ![screenshot](assets/images/screen-shot.png)
 
+
 This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
 
 ## Built With
@@ -18,6 +19,7 @@ This project is a replica of the The next clone home page. It has a different ne
 ## Live Demo
 
 To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Electronics-Online-Shop/85633e4e5a666c41985ac41bec7ce30bd20e6974/index.html)
+
 
 
 ## Getting Started
