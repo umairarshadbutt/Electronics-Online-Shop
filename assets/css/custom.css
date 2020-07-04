@@ -253,3 +253,9 @@ label {
 .fab {
   color: #888;
 }
+
+@media (max-width: 655px){
+  .offer-button {
+    display: none;
+}
+}
