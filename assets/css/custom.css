@@ -254,10 +254,10 @@ label {
   color: #888;
 }
 
-@media (max-width: 655px){
+@media (max-width: 655px) {
   .offer-button {
     display: none;
-}
+  }
 }
 
 footer .para p {
