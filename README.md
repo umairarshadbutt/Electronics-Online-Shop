@@ -4,9 +4,6 @@
 
 ![screenshot](assets/images/screen-shot.png)
 
-
-This project is a replica of the The next clone home page. It has a different news sections, which includes images, links and text content.
-
 ## Built With
 
 - HTML5
