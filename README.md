@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Electronics-Online-Shop/64610a6026ad59af9d1c7476303e01c5e1e637a1/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/umairarshadbutt/Electronics-Online-Shop/dca6877eb1dd7c2080da8961b63d995026669970/index.html)
 
 
 
