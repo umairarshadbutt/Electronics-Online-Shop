@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dara</title>
+        <link rel="icon" type="images/png" href="./assets/images/store-logo.png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./assets/css/custom.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="d-flex custom-row-margin navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark nav-bg-color">
+                    <div class="col-2 col-md-3 col-lg-3 col-xl-3 mr-auto">
+                        <a class="nav-link float-right" href="index.html"><img src="./assets/images/store-logo.png" alt="logo"> </a>
+                    </div>
+                    <div class="col-10 col-md-7 col-lg-7 col-xl-7 navbar-collapse">
+                        <ul class="navbar-nav nav-list-flex">
+                            <li class="nav-item active mr-2 ml-2 mt-2">
+                                <a class="nav-link" href="index.html"><i class="fas fa-home" aria-hidden="true"> Home</i></a>
+                            </li>
+                            <li class="nav-item mr-2 ml-2 mt-2">
+                                <a class="nav-link" href="search.html"><i class="fas fa-list-alt" aria-hidden="true"> Collections</i></a>
+                            </li>
+                            <li class="nav-item mr-2 ml-2 mt-2">
+                                <a class="nav-link" href="#"><i class="fas fa-shopping-cart" aria-hidden="true"> Purchase</i></a>
+                            </li>
+                            <li class="nav-item mr-2 ml-2 mt-2 post offer-button">
+                                <a class="nav-link add-button" href="#"> Offers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-0 col-lg-2 col-xl-2 profile d-none d-lg-block d-xl-block">
+                        <a href="#"><i class="fas fa-envelope" aria-hidden="true">Umair</i></a>
+                        <a href="#"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                        <img src="./assets/images/umair.png" alt="umair">
+                    </div>
+                </div>
+            </nav>
+            <div class="header">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 text-center text-white text-uppercase d-flex h4 mx-0 px-0 mt-5 pt-5 justify-content-center">
+                            <h1 class="font-weight-bolder">Dara</h1>
+                        </div>
+                        <div>
+                            <p>Buying and selling colud not be simpler like this!</p>
+                            <div class="input-group mb-3">
+                                <div>
+                                    <select class="col-2 col-md-3 col-lg-3 col-xl-3 input-search mb-2 ">
+                                        <option value="0">Laptop</option>
+                                        <option value="1">Glasses</option>
+                                        <option value="2">Mobile</option>
+                                        <option value="3">Tab</option>
+                                        <option value="4">Shoes</option>
+                                        <option value="5">Camera</option>
+                                        <option value="6">Watch</option>
+                                    </select>
+                                    <input type="text" class="col-2 col-md-4 col-lg-4 col-xl-5 input-search" placeholder="What are you looking for?" />
+                                    <input type="text" class="col-3 input-search" placeholder="Location" />
+                                    <a class="search-button" href="search.html"> Search</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="d-none d-md-block d-lg-block d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <span class="col-1"></span>
+                    <h5 class="col-11 mt-4 mb-4">Hot ADS</h5>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active row class-flex"   >
+                            <div class="col-1"></div>
+                            <img class="d-block col-4" src="./assets/images/hot-add.jpg" alt="First slide" />
+                            <div class="col-6 para">
+                                <h3><a href="#">New OPPO Cell</a></h3>
+                                <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                                <p><b>By: </b>Dara Store</p>
+                                <p><b>Location: </b>Lahore, Pakistan</p>
+                                <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item row class-flex"    >
+                            <div class="col-1"></div>
+                            <img class="d-block col-4" src="./assets/images/hot-add.jpg" alt="First slide" />
+                            <div class="col-6 para">
+                                <h3><a href="#">New OPPO Cell</a></h3>
+                                <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                                <p><b>By: </b>Dara Store</p>
+                                <p><b>Location: </b>Lahore, Pakistan</p>
+                                <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item row class-flex"    >
+                            <div class="col-1"></div>
+                            <img class="d-block col-4" src="./assets/images/hot-add.jpg" alt="First slide" />
+                            <div class="col-6 para">
+                                <h3><a href="#">New OPPO Cell</a></h3>
+                                <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                                <p><b>By: </b>Dara Store</p>
+                                <p><b>Location: </b>Lahore, Pakistan</p>
+                                <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="d-none d-lg-block d-xl-block">
+                        <a class="carousel-control-prev pre" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="displayMobile d-md-none d-lg-none d-xl-none">
+            <div class="title mt-4 mb-2 border-bottom">
+                <span class="float-left d-inline"></span>
+                <h3 class="float-left d-inline">Hot ADS</h3>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/hot-add.jpg" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <div>
+                        <h3><a href="#">New OPPO Cell</a></h3>
+                        <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                        <p><b>By: </b>Dara Store</p>
+                        <p><b>Location: </b>Lahore, Pakistan</p>
+                        <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/hot-add.jpg" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <div>
+                        <h3><a href="#">New OPPO Cell</a></h3>
+                        <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                        <p><b>By: </b>Dara Store</p>
+                        <p><b>Location: </b>Lahore, Pakistan</p>
+                        <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/hot-add.jpg" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <div>
+                        <h3><a href="#">New OPPO Cell</a></h3>
+                        <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                        <p><b>By: </b>Dara Store</p>
+                        <p><b>Location: </b>Lahore, Pakistan</p>
+                        <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/hot-add.jpg" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <div>
+                        <h3><a href="#">New OPPO Cell</a></h3>
+                        <p>OPPO Lastest A31 6.5 Waterdrop A1 Triple Camera 4Gb Ram 128Gb Rom 4100 mAh Battery</p>
+                        <p><b>By: </b>Dara Store</p>
+                        <p><b>Location: </b>Lahore, Pakistan</p>
+                        <button type="button" class="btn btn-danger mb-2">450$</button> <button type="button" class="btn btn-danger mb-2"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Purchase Available</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="d-none d-md-block d-lg-block d-xl-block">
+            <div class="m-5 row">
+                <div class="title border-bottom">
+                    <span class="float-left d-inline"></span>
+                    <h3 class="float-left d-inline"><i class="fa fa-mobile" aria-hidden="true"></i>Mobiles</h3>
+                    <p class="float-left d-inline">Tab mobile</p>
+                </div>
+                <div id="carouselExampleInterval" class="carousel slide m-5" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile1.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Huawei Nova 7i </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile2.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Samsung Galaxy A31 </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile3.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Samsung Galaxy A21s </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile4.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Infinix Note 7 </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile5.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Vivo V19 </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile6.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Realme 6 pro </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile7.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Oppo Find X2 pro </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/mobile8.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Samsung Galaxy Z Flip </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon arrow-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon arrow-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="displayMobile d-md-none d-lg-none d-xl-none">
+            <div class="title mt-4 mb-2 border-bottom">
+                <span class="float-left d-inline"></span>
+                <h3 class="float-left d-inline"><i class="fa fa-mobile" aria-hidden="true"></i>Mobiles</h3>
+                <p class="float-left d-inline">Tab mobile</p>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile1.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Huawei Nova 7i </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile2.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Samsung Galaxy A31 </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile3.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Samsung Galaxy A21s </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile4.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Infinix Note 7 </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile5.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Vivo V19 </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile6.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Realme 6 pro </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile7.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Oppo Find X2 pro </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/mobile8.jpg" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Samsung Galaxy Z Flip </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="d-none d-md-block d-lg-block d-xl-block">
+            <div class="m-5 row">
+                <div class="title border-bottom">
+                    <span class="float-left d-inline"></span>
+                    <h3 class="float-left d-inline"><i class="fa fa-glass" aria-hidden="true"></i> Fashion</h3>
+                    <p class="float-left d-inline">Ladies Stuff</p>
+                </div>
+                <div id="carouselExampleInterval2" class="carousel slide m-5" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f1.webp" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font"> Fashionable stylish design infant shirt n cotton pant</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f2.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-3" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font"> PC Cotton Ladies Stitched Kurti</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f3.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font"> lolypop Kawal Tiktoker Kurti Collection - Hot Sale</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f4.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">HStripd jeans For Girls AW - Hot Sale</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f5.webp" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font"> Pack One Girls Jeans AW</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f6.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-4" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Black Bts Cotton Printed TShirt For Women</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f7.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Red T-Shirt For Women</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/f9.webp" class="card-img-top pr-3 mt-5 pl-5 mb-2 mb-2" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Stylish Printed Kurti For Her - Hot Sale</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon arrow-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon arrow-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="displayMobile d-md-none d-lg-none d-xl-none">
+            <div class="title mt-4 mb-2 border-bottom">
+                <span class="float-left d-inline"></span>
+                <h3 class="float-left d-inline"><i class="fa fa-glass" aria-hidden="true"></i> Fashion</h3>
+                <p class="float-left d-inline">Ladies Stuff</p>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f1.webp" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font"> Fashionable stylish design infant shirt n cotton pant</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f2.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-3" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font"> PC Cotton Ladies Stitched Kurti</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f3.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font"> lolypop Kawal Tiktoker Kurti Collection -</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f4.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">HStripd jeans For Girls AW</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f5.webp" class=" card-img-top pr-1 mt-1 pl-1" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font"> Pack One Girls Jeans AW</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f6.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-4" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Black Bts Cotton Printed TShirt For Women</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f7.webp" class=" card-img-top pr-1 mt-1 pl-1 mb-2" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Red T-Shirt For Women</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/f9.webp" class="card-img-top pr-3 mt-5 pl-5 mb-2 mb-2" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Stylish Printed Kurti For Her</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="d-none d-md-block d-lg-block d-xl-block">
+            <div class="m-5 row">
+                <div class="title border-bottom">
+                    <span class="float-left d-inline"></span>
+                    <h3 class="float-left d-inline"><i class="fa fa-gamepad" aria-hidden="true"></i>Electronic Devices</h3>
+                    <p class="float-left d-inline">Audio, Games</p>
+                </div>
+                <div id="carouselExampleInterval3" class="carousel slide m-5" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e3.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">2020 NEW Arrival - Power Beats3 Wireless Handfree Bluetooth</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e4.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Salar M13 Desktop Wired Microphone Gooseneck </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-group flex">
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e3.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">2020 NEW Arrival - Power Beats3 Wireless Handfree Bluetooth</b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card mx-3">
+                                    <img src="./assets/images/e4.webp" class="card-img-top" alt="Dara pics" />
+                                    <div class="card-body para">
+                                        <p class="card-text">
+                                            <b class="item-font">Salar M13 Desktop Wired Microphone Gooseneck </b> <br />
+                                            <span class="red-color">NEW</span> <br />
+                                            From: <b> Lahore, Pakistan</b>
+                                        </p>
+                                        <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                                        <p class="card-text text-right">
+                                            <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon arrow-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon arrow-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="displayMobile d-md-none d-lg-none d-xl-none">
+            <div class="title mt-4 mb-2 border-bottom">
+                <span class="float-left d-inline"></span>
+                <h3 class="float-left d-inline"><i class="fa fa-gamepad" aria-hidden="true"></i> Electronic Devices</h3>
+                <p class="float-left d-inline">Audio, Games</p>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e2.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">P47 Wireless Bluetooth Foldable Headset With Microphone</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e3.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">2020 NEW Arrival - Power Beats3 Wireless Handfree Bluetooth</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e4.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Salar M13 Desktop Wired Microphone Gooseneck </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e5.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">PlayStation 4 Slim - 500GB - Region 2 - Gold</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e6.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">PlayStation 4 - 1TB - Slim </b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e7.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">Arduino Starter Kit Beginners Project Starter kit</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card mx-3 arrangeCards">
+                <img src="./assets/images/e8.webp" class="card-img-top" alt="Dara pics" />
+                <div class="card-body para">
+                    <p class="card-text">
+                        <b class="item-font">HTC latest model 2.0</b> <br />
+                        <span class="red-color">NEW</span> <br />
+                        From: <b> Lahore, Pakistan</b>
+                    </p>
+                    <span class="add-item-icon"><img src="./assets/images/plus.png" alt="plus" /></span>
+                    <p class="card-text text-right">
+                        <a class="red-color"><i class="fas fa-shopping-cart" aria-hidden="true"></i> 120$</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-lg-9 col-xl-9 pt-5 d-none d-md-block d-lg-block d-xl-block">
+                        <div class="mr-5 ml-5 text-center">
+                            <img class="rounded" src="./assets/images/store-logo.png" alt="logo" />
+                            <div class="para pl-5 pr-5">
+                                <p>
+                                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                                    to make a type specimen book.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-3 col-xl-3 pt-5 d-none d-md-block d-lg-block d-xl-block">
+                        <h3>CETAGORIES</h3>
+                        <ul class="float-left">
+                            <li><a href="#" class="text-decoration-none">Cloth</a></li>
+                            <li><a href="#" class="text-decoration-none">Glasses</a></li>
+                            <li><a href="#" class="text-decoration-none">Shoes</a></li>
+                            <li><a href="#" class="text-decoration-none">Table</a></li>
+                            <li><a href="#" class="text-decoration-none">Glass</a></li>
+                            <li><a href="#" class="text-decoration-none"> Tea</a></li>
+                        </ul>
+                        <ul class="float-right">
+                            <li><a href="#" class="text-decoration-none"> Cell</a></li>
+                            <li><a href="#" class="text-decoration-none">TV</a></li>
+                            <li><a href="#" class="text-decoration-none">Cars</a></li>
+                            <li><a href="#" class="text-decoration-none">Router</a></li>
+                            <li><a href="#" class="text-decoration-none">Moter</a></li>
+                            <li><a href="#" class="text-decoration-none">Bed</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center displayMobile d-md-none d-lg-none d-xl-none">
+                    <ul class="responsive-footer">
+                        <li>
+                            <a href="#">Cloth</a>
+                        </li>
+                        <li>
+                            <a href="#">Glasses </a>
+                        </li>
+                        <li>
+                            <a href="#">Shoes</a>
+                        </li>
+                        <li>
+                            <a href="#">Table</a>
+                        </li>
+                        <li>
+                            <a href="#">Glasses </a>
+                        </li>
+                        <li>
+                            <a href="#">Tea</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="para border-top">
+                    <p class="text-center mt-2">© 2020 Intuit, Inc. All rights reserved By Umair Arshad</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
